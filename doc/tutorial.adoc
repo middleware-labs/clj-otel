@@ -176,7 +176,7 @@ The span's `Process` attributes describe the instrumented application and its en
 
 You will now enrich the telemetry detail by adding manual instrumentation in addition to the existing automatic instrumentation.
 
-* Add a dependency `com.github.steffan-westcott/clj-otel-api`:
+* Add a dependency `org.clojars.middleware-dev/clj-otel-api`:
 +
 .`./deps.edn`
 [source,clojure]
@@ -185,7 +185,7 @@ You will now enrich the telemetry detail by adding manual instrumentation in add
 
  :deps    {org.clojure/clojure                      {:mvn/version "1.11.1"}
            ring/ring-jetty-adapter                  {:mvn/version "1.9.6"}
-           com.github.steffan-westcott/clj-otel-api {:mvn/version "0.1.5"}}
+           org.clojars.middleware-dev/clj-otel-api {:mvn/version "0.1.5"}}
 
  :aliases {:otel {:jvm-opts ["-javaagent:opentelemetry-javaagent.jar"
                              "-Dotel.resource.attributes=service.name=counter-service"

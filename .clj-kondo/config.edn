@@ -1,6 +1,6 @@
 ;!zprint {:width 140}
 
-{:config-paths ["com.github.steffan-westcott/clj-otel-api"]
+{:config-paths ["org.clojars.middleware-dev/clj-otel-api"]
  :lint-as      {example.common-utils.core-async/<with-span-binding clojure.core/let}
  :linters      {:consistent-alias  {:aliases {clojure.core.async async
                                               clojure.string str

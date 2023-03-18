@@ -3,7 +3,7 @@
 {:paths   ["src" "resources"]
 
  :deps    {org.clojure/clojure       {:mvn/version "1.11.1"}
-           com.github.steffan-westcott/clj-otel-api {:mvn/version "0.1.6"}
+           org.clojars.middleware-dev/clj-otel-api {:mvn/version "0.1.5"}
            metosin/reitit-ring       {:mvn/version "0.6.0"}
            metosin/reitit-middleware {:mvn/version "0.6.0"}
            ring/ring-jetty-adapter   {:mvn/version "1.9.6"}
@@ -97,6 +97,6 @@
   ;; -----------------------------
   ;; Used for development of clj-otel-* libraries with the examples
 
-  :dev {:override-deps {com.github.steffan-westcott/clj-otel-api {:local/root "../../../../clj-otel-api"}}}
+  :dev {:override-deps {org.clojars.middleware-dev/clj-otel-api {:local/root "../../../../clj-otel-api"}}}
 
  }}
