@@ -8,8 +8,8 @@
             [io.pedestal.http.route :as route]
             [io.pedestal.interceptor :as interceptor]
             [ring.util.response :as response]
-            [steffan-westcott.clj-otel.api.trace.http :as trace-http]
-            [steffan-westcott.clj-otel.api.trace.span :as span]))
+            [middleware-dev.clj-otel.api.trace.http :as trace-http]
+            [middleware-dev.clj-otel.api.trace.span :as span]))
 
 
 (def planet-statistics

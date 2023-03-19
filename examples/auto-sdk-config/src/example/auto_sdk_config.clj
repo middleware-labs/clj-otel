@@ -1,6 +1,6 @@
 (ns example.auto-sdk-config
-  (:require [steffan-westcott.clj-otel.api.trace.span :as span]
-            [steffan-westcott.clj-otel.instrumentation.runtime-metrics :as runtime-metrics]))
+  (:require [middleware-dev.clj-otel.api.trace.span :as span]
+            [middleware-dev.clj-otel.instrumentation.runtime-metrics :as runtime-metrics]))
 
 
 (defn square

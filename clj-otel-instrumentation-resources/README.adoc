@@ -4,7 +4,7 @@ image:https://img.shields.io/clojars/v/org.clojars.middleware-dev/clj-otel-instr
 ifndef::env-cljdoc[]
 image:https://cljdoc.org/badge/org.clojars.middleware-dev/clj-otel-instrumentation-resources[cljdoc,link=https://cljdoc.org/d/org.clojars.middleware-dev/clj-otel-instrumentation-resources]
 endif::[]
-image:https://img.shields.io/github/license/steffan-westcott/clj-otel[License]
+image:https://img.shields.io/github/license/middleware-dev/clj-otel[License]
 image:https://img.shields.io/badge/clojurians-clj--otel-blue.svg?logo=slack[Slack channel,link=https://clojurians.slack.com/messages/clj-otel]
 
 Provides access using Clojure to OpenTelemetry `Resource` objects which describe the local host and running process

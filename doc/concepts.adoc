@@ -73,7 +73,7 @@ Several vendors have created *distributions* of the OpenTelemetry SDK and OpenTe
 
 === What does this project `clj-otel` enable?
 
-https://github.com/steffan-westcott/clj-otel[`clj-otel`] extends the reach of OpenTelemetry to *Clojure libraries and applications* by providing:
+https://github.com/middleware-dev/clj-otel[`clj-otel`] extends the reach of OpenTelemetry to *Clojure libraries and applications* by providing:
 
 * A *small idiomatic Clojure API* that wraps the OpenTelemetry implementation for Java.
 This API enables manual instrumentation of Clojure libraries and applications using pure Clojure.
@@ -81,7 +81,7 @@ This API enables manual instrumentation of Clojure libraries and applications us
 * Support for creating spans around *asynchronous* Clojure code.
 * A Clojure wrapper for *programmatic configuration* of the OpenTelemetry SDK.
 
-https://github.com/steffan-westcott/clj-otel[`clj-otel`] is an umbrella project for several Clojure modules `clj-otel-*`.
+https://github.com/middleware-dev/clj-otel[`clj-otel`] is an umbrella project for several Clojure modules `clj-otel-*`.
 They depend on the OpenTelemetry implementation for Java https://github.com/open-telemetry/opentelemetry-java[`opentelemetry-java`] and the OpenTelemetry instrumentation agent provided by https://github.com/open-telemetry/opentelemetry-java-instrumentation[`opentelemetry-java-instrumentation`].
 
 == Supported telemetry backends

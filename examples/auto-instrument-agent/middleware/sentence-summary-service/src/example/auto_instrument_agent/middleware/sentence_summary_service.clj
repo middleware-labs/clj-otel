@@ -12,8 +12,8 @@
             [reitit.ring.middleware.parameters :as parameters]
             [ring.adapter.jetty :as jetty]
             [ring.util.response :as response]
-            [steffan-westcott.clj-otel.api.trace.http :as trace-http]
-            [steffan-westcott.clj-otel.api.trace.span :as span]))
+            [middleware-dev.clj-otel.api.trace.http :as trace-http]
+            [middleware-dev.clj-otel.api.trace.span :as span]))
 
 (defn get-word-length
   "Get the length of `word`."

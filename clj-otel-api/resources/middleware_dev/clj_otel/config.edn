@@ -1,0 +1,4 @@
+;!zprint {:width 140}
+
+{:defaults {:instrumentation-library {:name    "middleware-dev.clj-otel"
+                                      :version "0.1.12-SNAPSHOT"}}}

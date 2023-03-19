@@ -19,7 +19,7 @@ WARNING: Until version `1.0.0` there is a greater possibility of breaking change
 
 == `0.x` changes
 
-=== `0.1.5` (in progress)
+=== `0.1.12` (in progress)
 
 - Add support for Metrics API
 - Add implementations of the following https://opentelemetry.io/docs/reference/specification/metrics/semantic_conventions/http-metrics/[HTTP server metrics] for use by applications not run with the OpenTelemetry instrumentation agent:
@@ -46,7 +46,7 @@ The pattern also ensures all requests are traced, including those which do not m
 * gRPC `1.51.1`
 * Various build deps
 
-=== `0.1.5` (2022-09-03)
+=== `0.1.12` (2022-09-03)
 
 - Bump deps:
 * OpenTelemetry `1.17.0`

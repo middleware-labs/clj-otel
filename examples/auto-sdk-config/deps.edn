@@ -3,8 +3,8 @@
 {:paths   ["src"]
 
  :deps    {org.clojure/clojure {:mvn/version "1.11.1"}
-           org.clojars.middleware-dev/clj-otel-api {:mvn/version "0.1.5"}
-           org.clojars.middleware-dev/clj-otel-instrumentation-runtime-metrics {:mvn/version "0.1.5"}}
+           org.clojars.middleware-dev/clj-otel-api {:mvn/version "0.1.12"}
+           org.clojars.middleware-dev/clj-otel-instrumentation-runtime-metrics {:mvn/version "0.1.12"}}
 
  :aliases
  {;; Include this alias to export telemetry data

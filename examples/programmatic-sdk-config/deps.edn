@@ -3,25 +3,25 @@
 {:paths ["src"]
 
  :deps {org.clojure/clojure {:mvn/version "1.11.1"}
-        org.clojars.middleware-dev/clj-otel-api {:mvn/version "0.1.5"}
-        org.clojars.middleware-dev/clj-otel-instrumentation-resources {:mvn/version "0.1.5"}
-        org.clojars.middleware-dev/clj-otel-instrumentation-runtime-metrics {:mvn/version "0.1.5"}
-        org.clojars.middleware-dev/clj-otel-sdk {:mvn/version "0.1.5"}}
+        org.clojars.middleware-dev/clj-otel-api {:mvn/version "0.1.12"}
+        org.clojars.middleware-dev/clj-otel-instrumentation-resources {:mvn/version "0.1.12"}
+        org.clojars.middleware-dev/clj-otel-instrumentation-runtime-metrics {:mvn/version "0.1.12"}
+        org.clojars.middleware-dev/clj-otel-sdk {:mvn/version "0.1.12"}}
 
  :aliases
  {;; Select any number of exporter-* aliases
 
-  :exporter-otlp {:extra-deps {org.clojars.middleware-dev/clj-otel-exporter-otlp {:mvn/version "0.1.5"}}}
+  :exporter-otlp {:extra-deps {org.clojars.middleware-dev/clj-otel-exporter-otlp {:mvn/version "0.1.12"}}}
 
-  :exporter-jaeger-grpc {:extra-deps {org.clojars.middleware-dev/clj-otel-exporter-jaeger-grpc {:mvn/version "0.1.5"}}}
+  :exporter-jaeger-grpc {:extra-deps {org.clojars.middleware-dev/clj-otel-exporter-jaeger-grpc {:mvn/version "0.1.12"}}}
 
-  :exporter-jaeger-thrift {:extra-deps {org.clojars.middleware-dev/clj-otel-exporter-jaeger-thrift {:mvn/version "0.1.5"}}}
+  :exporter-jaeger-thrift {:extra-deps {org.clojars.middleware-dev/clj-otel-exporter-jaeger-thrift {:mvn/version "0.1.12"}}}
 
-  :exporter-zipkin {:extra-deps {org.clojars.middleware-dev/clj-otel-exporter-zipkin {:mvn/version "0.1.5"}}}
+  :exporter-zipkin {:extra-deps {org.clojars.middleware-dev/clj-otel-exporter-zipkin {:mvn/version "0.1.12"}}}
 
-  :exporter-logging {:extra-deps {org.clojars.middleware-dev/clj-otel-exporter-logging {:mvn/version "0.1.5"}}}
+  :exporter-logging {:extra-deps {org.clojars.middleware-dev/clj-otel-exporter-logging {:mvn/version "0.1.12"}}}
 
-  :exporter-logging-otlp {:extra-deps {org.clojars.middleware-dev/clj-otel-exporter-logging-otlp {:mvn/version "0.1.5"}}}
+  :exporter-logging-otlp {:extra-deps {org.clojars.middleware-dev/clj-otel-exporter-logging-otlp {:mvn/version "0.1.12"}}}
 
 
 

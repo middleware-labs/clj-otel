@@ -21,7 +21,7 @@
   "org.clojars.middleware-dev")
 
 (def ^:private version
-  "0.1.5-SNAPSHOT")
+  "0.1.12-SNAPSHOT")
 
 ;; Later artifacts in this vector may depend on earlier artifacts
 (def ^:private artifact-ids

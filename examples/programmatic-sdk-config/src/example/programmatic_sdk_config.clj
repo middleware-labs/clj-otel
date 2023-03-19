@@ -7,17 +7,17 @@
   (:require
 
    ;; Require desired span exporters
-   [steffan-westcott.clj-otel.exporter.otlp.grpc.trace :as otlp-grpc-trace]
-   ;[steffan-westcott.clj-otel.exporter.otlp.http.trace :as otlp-http-trace]
-   ;[steffan-westcott.clj-otel.exporter.jaeger-grpc :as jaeger-grpc]
-   ;[steffan-westcott.clj-otel.exporter.jaeger-thrift :as jaeger-thrift]
-   ;[steffan-westcott.clj-otel.exporter.zipkin :as zipkin]
-   ;[steffan-westcott.clj-otel.exporter.logging :as logging]
-   ;[steffan-westcott.clj-otel.exporter.logging-otlp :as logging-otlp]
+   [middleware-dev.clj-otel.exporter.otlp.grpc.trace :as otlp-grpc-trace]
+   ;[middleware-dev.clj-otel.exporter.otlp.http.trace :as otlp-http-trace]
+   ;[middleware-dev.clj-otel.exporter.jaeger-grpc :as jaeger-grpc]
+   ;[middleware-dev.clj-otel.exporter.jaeger-thrift :as jaeger-thrift]
+   ;[middleware-dev.clj-otel.exporter.zipkin :as zipkin]
+   ;[middleware-dev.clj-otel.exporter.logging :as logging]
+   ;[middleware-dev.clj-otel.exporter.logging-otlp :as logging-otlp]
 
-   [steffan-westcott.clj-otel.api.trace.span :as span]
-   [steffan-westcott.clj-otel.resource.resources :as res]
-   [steffan-westcott.clj-otel.sdk.otel-sdk :as sdk]))
+   [middleware-dev.clj-otel.api.trace.span :as span]
+   [middleware-dev.clj-otel.resource.resources :as res]
+   [middleware-dev.clj-otel.sdk.otel-sdk :as sdk]))
 
 (defn init-otel!
   "Configure and initialise the OpenTelemetry SDK as the global OpenTelemetry

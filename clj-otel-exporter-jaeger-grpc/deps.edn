@@ -2,7 +2,7 @@
 
 {:paths   ["src"]
  :deps    {org.clojure/clojure {:mvn/version "1.11.1"}
-           org.clojars.middleware-dev/clj-otel-api {:mvn/version "0.1.5"}
+           org.clojars.middleware-dev/clj-otel-api {:mvn/version "0.1.12"}
            io.opentelemetry/opentelemetry-exporter-jaeger {:mvn/version "1.24.0"}}
  :aliases {:dev      {:override-deps {org.clojars.middleware-dev/clj-otel-api {:local/root "../clj-otel-api"}}}
-           :snapshot {:override-deps {org.clojars.middleware-dev/clj-otel-api {:mvn/version "0.1.5-SNAPSHOT"}}}}}
+           :snapshot {:override-deps {org.clojars.middleware-dev/clj-otel-api {:mvn/version "0.1.12-SNAPSHOT"}}}}}

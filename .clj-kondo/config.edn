@@ -4,12 +4,12 @@
  :lint-as      {example.common-utils.core-async/<with-span-binding clojure.core/let}
  :linters      {:consistent-alias  {:aliases {clojure.core.async async
                                               clojure.string str
-                                              steffan-westcott.clj-otel.api.attributes attr
-                                              steffan-westcott.clj-otel.api.baggage baggage
-                                              steffan-westcott.clj-otel.api.otel otel
-                                              steffan-westcott.clj-otel.sdk.otel-sdk sdk
-                                              steffan-westcott.clj-otel.api.trace.http trace-http
-                                              steffan-westcott.clj-otel.api.trace.span span
-                                              steffan-westcott.clj-otel.context context}}
+                                              middleware-dev.clj-otel.api.attributes attr
+                                              middleware-dev.clj-otel.api.baggage baggage
+                                              middleware-dev.clj-otel.api.otel otel
+                                              middleware-dev.clj-otel.sdk.otel-sdk sdk
+                                              middleware-dev.clj-otel.api.trace.http trace-http
+                                              middleware-dev.clj-otel.api.trace.span span
+                                              middleware-dev.clj-otel.context context}}
                 :unsorted-required-namespaces {:level :warning}
                 :missing-docstring {:level :warning}}}

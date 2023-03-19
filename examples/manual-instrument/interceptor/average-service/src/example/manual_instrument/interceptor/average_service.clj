@@ -9,11 +9,11 @@
             [io.pedestal.http.route :as route]
             [io.pedestal.interceptor :as interceptor]
             [ring.util.response :as response]
-            [steffan-westcott.clj-otel.api.metrics.http.server :as metrics-http-server]
-            [steffan-westcott.clj-otel.api.trace.http :as trace-http]
-            [steffan-westcott.clj-otel.api.trace.span :as span]
-            [steffan-westcott.clj-otel.context :as context]
-            [steffan-westcott.clj-otel.instrumentation.runtime-metrics :as runtime-metrics]))
+            [middleware-dev.clj-otel.api.metrics.http.server :as metrics-http-server]
+            [middleware-dev.clj-otel.api.trace.http :as trace-http]
+            [middleware-dev.clj-otel.api.trace.span :as span]
+            [middleware-dev.clj-otel.context :as context]
+            [middleware-dev.clj-otel.instrumentation.runtime-metrics :as runtime-metrics]))
 
 
 (defn client-request

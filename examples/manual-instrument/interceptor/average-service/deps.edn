@@ -3,8 +3,8 @@
 {:paths   ["src" "resources"]
 
  :deps    {clj-http/clj-http {:mvn/version "3.12.3"}
-           org.clojars.middleware-dev/clj-otel-api {:mvn/version "0.1.5"}
-           org.clojars.middleware-dev/clj-otel-instrumentation-runtime-metrics {:mvn/version "0.1.5"}
+           org.clojars.middleware-dev/clj-otel-api {:mvn/version "0.1.12"}
+           org.clojars.middleware-dev/clj-otel-instrumentation-runtime-metrics {:mvn/version "0.1.12"}
            io.pedestal/pedestal.interceptor {:mvn/version "0.5.10"}
            io.pedestal/pedestal.jetty {:mvn/version "0.5.10"}
            io.pedestal/pedestal.route {:mvn/version "0.5.10"}

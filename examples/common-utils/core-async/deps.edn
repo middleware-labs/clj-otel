@@ -4,7 +4,7 @@
 
  :deps    {org.clojure/clojure    {:mvn/version "1.11.1"}
            org.clojure/core.async {:mvn/version "1.6.673"}
-           org.clojars.middleware-dev/clj-otel-api {:mvn/version "0.1.5"}
+           org.clojars.middleware-dev/clj-otel-api {:mvn/version "0.1.12"}
            ring/ring-core         {:mvn/version "1.9.6"}}
 
  :aliases {;; Used for development of clj-otel-* libraries with the examples

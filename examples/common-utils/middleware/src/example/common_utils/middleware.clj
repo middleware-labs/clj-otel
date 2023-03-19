@@ -1,6 +1,6 @@
 (ns example.common-utils.middleware
-  (:require [steffan-westcott.clj-otel.api.trace.http :as trace-http]
-            [steffan-westcott.clj-otel.api.trace.span :as span]))
+  (:require [middleware-dev.clj-otel.api.trace.http :as trace-http]
+            [middleware-dev.clj-otel.api.trace.span :as span]))
 
 
 (defn wrap-exception-event
